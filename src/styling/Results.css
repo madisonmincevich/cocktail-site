@@ -1,0 +1,27 @@
+.randomResults {
+  font-family: "Oxygen", sans-serif;
+}
+
+.cocktailName {
+  margin: 50px;
+}
+
+.drinkType {
+  font-style: italic;
+  font-size: 20px;
+  opacity: 80%;
+}
+
+.cocktailImg {
+  margin: 10px;
+}
+
+.ingredient {
+  text-align: left;
+  margin: 10px;
+}
+
+.instructions {
+  text-align: left;
+  margin: 10px;
+}
