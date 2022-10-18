@@ -17,7 +17,7 @@ export default function SearchResults(props) {
             <img
               src={props.searchResults.drinks[0].strDrinkThumb}
               className="cocktailImg rounded img-fluid"
-              alt="Cocktail Image"
+              alt="Cocktail"
             />
           </div>
         </div>
