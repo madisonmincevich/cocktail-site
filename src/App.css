@@ -1,23 +1,51 @@
 .App {
   text-align: center;
   font-family: "Montserrat", sans-serif;
+  background: #093028; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #237a57,
+    #093028
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #237a57,
+    #093028
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.pad {
+  background: #093028; /* fallback for old browsers */
+
+  padding: 50px;
+  border-radius: 10px;
+  margin: 10px;
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #e0e0e0;
 }
 
-ul {
-  list-style: none;
+.title {
+  margin-top: 50px;
+  font-size: 40px;
 }
 
 .cocktailImg {
   max-width: 100%;
+}
+
+a {
+  color: #e0e0e0;
+  text-decoration: none;
+}
+
+footer {
+  color: grey;
 }

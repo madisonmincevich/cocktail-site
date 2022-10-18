@@ -22,7 +22,7 @@ export default function Results(props) {
         </div>
         <div className="row">
           <div className="col-sm-5">
-            <h3 className="text-start">Ingredients:</h3>
+            <h3 className="text-start fw-bold">Ingredients:</h3>
             <p className="ingredient">
               {props.results.drinks[0].strMeasure1}{" "}
               {props.results.drinks[0].strIngredient1}
@@ -85,7 +85,7 @@ export default function Results(props) {
             </p>
           </div>
           <div className="col-sm-7">
-            <h3 className="text-start">Recipe:</h3>
+            <h3 className="text-start fw-bold">Recipe:</h3>
             <p className="instructions">
               {props.results.drinks[0].strInstructions}
             </p>
