@@ -21,7 +21,7 @@ export default function Search(props) {
   }
 
   function searched() {
-    let apiLink = `https:/www.thecocktaildb.com/api/json/v1/1/search.php?s=${keyword}`;
+    let apiLink = `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${keyword}`;
     axios.get(apiLink).then(handleTheResponse);
   }
 

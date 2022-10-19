@@ -13,7 +13,7 @@ export default function Randomizer() {
 
   function random() {
     let apiUrl =
-      "https:/www.thecocktaildb.com/api/json/v1/1/random.php/images/media/drink/vrwquq1478252802.jpg/preview";
+      "https://www.thecocktaildb.com/api/json/v1/1/random.php/images/media/drink/vrwquq1478252802.jpg/preview";
     axios.get(apiUrl).then(handleResponse);
   }
 
