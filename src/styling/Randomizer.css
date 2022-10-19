@@ -9,11 +9,6 @@
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
 }
 
-.randomizerBtn:hover {
-  color: #e0e0e0;
-  background-color: #2c5d63;
-}
-
 @media (max-width: 800px) {
   .randomizerBtn {
     margin: 0px;

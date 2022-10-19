@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import SearchResults from "./SearchResults";
 import axios from "axios";
+import "../styling/Search.css";
 
 export default function Search(props) {
   let [searchResults, setSearchResults] = useState(null);
@@ -35,7 +36,7 @@ export default function Search(props) {
           onChange={input}
           className="m-2"
         />
-        <input type="submit" placeholder="Search" />
+        <input type="submit" placeholder="Search" className="searchBtn" />
       </form>
       <SearchResults searchResults={searchResults} />
     </div>
