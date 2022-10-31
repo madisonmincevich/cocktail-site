@@ -8,7 +8,6 @@ export default function Randomizer() {
 
   function handleResponse(response) {
     setResults(response.data);
-    console.log(response.data);
   }
 
   function random() {

@@ -27,16 +27,7 @@ export default function Search(props) {
 
   function searched() {
     let apiLink = `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${keyword}`;
-    axios
-      .get(apiLink)
-      .then(handleTheResponse)
-      .catch(function (error) {
-        if (error) {
-          console.log("No cocktail");
-        } else {
-          console.log("it works");
-        }
-      });
+    axios.get(apiLink).then(handleTheResponse);
   }
 
   if (loaded) {
